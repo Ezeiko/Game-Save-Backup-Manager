@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/app_icon.png?raw=true" alt="Game Save Backup Manager Icon" width="230"/>
+  <img src="assets/app_icon.png?raw=true" alt="Game Save Backup Manager Icon" width="210"/>
 </p>
 
 # <p align="center"> Game Save Backup Manager v1.0.0 </p>
