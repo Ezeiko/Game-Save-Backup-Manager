@@ -49,7 +49,7 @@ A Windows console application to automatically and manually back up your game sa
 
 ## Installation & Setup ⚙️
 
-1.  * Download the .rar file from the release and extract.
+1.  **Download the .zip file from the release and extract.**
 2.  **Dedicated Folder:** **IMPORTANT:** Create a new, empty folder anywhere on your PC (e.g., `C:\GameSaveManager`). Place the `GameSaveBackupManager.exe` file inside this dedicated folder. The program needs its own folder to store configuration and backups correctly. It will warn you if it finds unexpected files in its directory on startup.
 3.  **Run the Program:** Double-click `GameSaveBackupManager.exe`.
 4.  **First Run - Cloud Setup (Optional):**
