@@ -1,4 +1,6 @@
-<img src="assets/app_icon.png?raw=true" alt="Game Save Backup Manager Icon" width="100"/>
+<p align="center">
+  <img src="assets/app_icon_console.png?raw=true" alt="Game Save Backup Manager Icon" width="200"/>
+</p>
 
 # Game Save Backup Manager v1.0.0
 
