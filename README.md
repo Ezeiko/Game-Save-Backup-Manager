@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/app_icon_console.png?raw=true" alt="Game Save Backup Manager Icon" width="200"/>
+  <img src="assets/app_icon.png?raw=true" alt="Game Save Backup Manager Icon" width="230"/>
 </p>
 
-# Game Save Backup Manager v1.0.0
+# <p align="center"> Game Save Backup Manager v1.0.0 </p>
 
 A Windows console application to automatically and manually back up your game save files locally and sync them to cloud storage, with convenient hotkey support during monitoring.
 
