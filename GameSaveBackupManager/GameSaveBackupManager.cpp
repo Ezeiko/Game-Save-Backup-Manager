@@ -2231,7 +2231,18 @@ void DetectAndSetGoogleDrivePath()
 	{
 		wstring guessPath = wstring(1, drive) + L":\\My Drive";
 		// Construct guess path
-		if (fs::exists(guessPath) && fs::is_directory(guessPath)) // Check if it exists and is a folder
+
+		bool guessPathExists = false;
+		try // fs::exists throws an exception if the file path doesn't exist in addition to returning a bool
+		{
+			guessPathExists = fs::exists(guessPath); // Check if it exists
+		}
+		catch (fs::filesystem_error const& ex)
+		{
+			continue; // Skip to next drive letter if an exception is thrown
+		}
+
+		if (guessPathExists && fs::is_directory(guessPath)) // Check if it is a folder
 		{
 			wcout << endl << L"   We found a *potential* Google Drive folder at this location:" << endl;
 			wcout << L"   " << guessPath << endl << endl;
